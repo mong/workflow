@@ -1,8 +1,10 @@
 # Our git workflow
 
-## Keep it simple
+We will use a workflow similar to [GitHub flow](https://guides.github.com/introduction/flow/).
 
-Few of us are experts in git, so we have to keep the workflow simple. Thus, no complicated branching scheme.
+## KISS (keep it simple, stupid)
+
+Few of us are experts in git, so we have to keep the workflow simple. Thus, **no** complicated branching scheme such as [git-flow](https://nvie.com/posts/a-successful-git-branching-model/).
 
 ## Master is king
 
