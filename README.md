@@ -23,7 +23,7 @@ The PR
 
 ## We use SemVer
 
-We are using [Semantic Versioning](https://semver.org/) to versioning our softwares. 
+We are using [Semantic Versioning](https://semver.org/) to versioning our softwares. Every successful PR must be tagged accordingly.
 
 
 ## In more details
@@ -50,3 +50,9 @@ When we want to add a new feature or fix a bug, we
     git pull --rebase # just in case someone else did some changes to this branch
     git push # push to github (only use "-u origin <branchname>" for the first push)
     ```
+    
+## Things we might want to add...
+1. How may CI be helpful for the contributors dev process?
+1. SOP when bugs are descovered?
+1. How we use issues and milestones
+
