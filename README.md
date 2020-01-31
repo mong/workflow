@@ -39,7 +39,9 @@ When we want to add a new feature or fix a bug, we
     git checkout -b <branchname> # make a new branch
     ```
     vscode:
+
     ![alt text](img/vscode_1.png)
+    
     ![alt text](img/vscode_2.png)
 2. do the coding
 3. commit changes and push them up to github
@@ -51,6 +53,7 @@ When we want to add a new feature or fix a bug, we
     git push -u origin <branchname> # push changes to github
     ```
     vscode:
+
     ![alt text](img/vscode_3.png)
 4. go to github, open a pull request, wait for all the tests to pass and let someone else look at the code.
 5. do some more coding and commits
