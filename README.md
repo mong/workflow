@@ -31,17 +31,27 @@ We are using [Semantic Versioning](https://semver.org/) to versioning our softwa
 When we want to add a new feature or fix a bug, we
 
 1. make a branch out of `master`
+    
+    terminal:
     ```sh
     git checkout master # make sure we are on master
     git pull --rebase # make sure master is up-to-date
     git checkout -b <branchname> # make a new branch
     ```
+    vscode:
+    ![alt text](img/vscode_1.png)
+    ![alt text](img/vscode_2.png)
 2. do the coding
 3. commit changes and push them up to github
+   
+   terminal:
     ```sh
+    git add <filename> # <filename> can be replaced by . to add all files
     git commit -m 'Clear and concise commit message' # commit changes
     git push -u origin <branchname> # push changes to github
     ```
+    vscode:
+    ![alt text](img/vscode_3.png)
 4. go to github, open a pull request, wait for all the tests to pass and let someone else look at the code.
 5. do some more coding and commits
     ```sh
