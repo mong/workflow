@@ -45,8 +45,8 @@ When we want to add a new feature or fix a bug, we
 4. go to github, open a pull request, wait for all the tests to pass and let someone else look at the code.
 5. do some more coding and commits
     ```sh
-    git commit -m 'Clear and concise commit message 2'
-    git commit -m 'Clear and concise commit message 3'
+    git commit -m 'blablabla'
+    git commit -m 'blablabla again'
     git pull --rebase # just in case someone else did some changes to this branch
     git push # push to github (only use "-u origin <branchname>" for the first push)
     ```
