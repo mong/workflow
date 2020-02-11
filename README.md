@@ -1,18 +1,44 @@
-# Our git workflow
+## Coding
+
+### Make tests
+
+"Untested code is broken code"
+
+### Write short functions/modules
+
+Break the code into small units
+
+### DRY
+
+Don't repeat yourself. Thus, do not copy-and-paste.
+
+### Remove unused code and libraries
+
+It will still be there, in the git history
+
+### Refactor the code
+
+Rewrite code, including other peoples code, to make it cleaner and easier to maintain.
+
+### Make issues
+
+If you find a bug or are thinking of a new feature, make an issue. If you will fix the bug or implement the new feature, assign yourself to the issue.
+
+## Our git workflow
 
 We will use a workflow similar to [GitHub flow](https://guides.github.com/introduction/flow/).
 
 Few of us are experts in git, so we have to keep the workflow simple.
 Thus, *no* complicated branching scheme such as [git-flow](https://nvie.com/posts/a-successful-git-branching-model/).
 
-## Master is king
+### Master is king
 
 We only have one long-lived branch, which is `master`.
 
 - At any time, a new release can be made out of the latest commit on `master`.
 - The `master` branch is protected on github, so it is not possible to push directly.
 
-## We use PR
+### We use PR
 
 All changes go into the `master` branch through **pull requests (PR)** and never by direct commits.
 
@@ -21,12 +47,12 @@ The PR
 - should be small and concise, to make it easier to review and easier to revert if something went wrong (e.g., the PR contained a bug that was later discovered). Thus, each PR should *not* mix several new features.
 - goes mainly into `master` through *Squash and merge*, to keep the git history linear.
 
-## We use SemVer
+### We use SemVer
 
 We are using [Semantic Versioning](https://semver.org/) to versioning our softwares. Every successful PR must be tagged accordingly.
 
 
-## In more details
+### In more details
 
 When we want to add a new feature or fix a bug, we
 
