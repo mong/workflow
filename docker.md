@@ -16,5 +16,5 @@
 5. Define user, groups etc.
 ```
 Sys.setenv(SHINYPROXY_USERNAME="<my-user-name>")
-Sys.setenv(SHINYPROXY_USERGROUPS="MANAGER") # or PROVIDER (not sure how to add both at the same time...)
+Sys.setenv(SHINYPROXY_USERGROUPS="MANAGER,PROVIDER")
 ```
