@@ -45,9 +45,14 @@ sudo dnf install rstudio-desktop
 
 ## Docker
 
-### Option 1
+### Option 1, as described by Docker Inc.
 
-Use `podman`. It is probably pre-installed (if not: `sudo dnf podman`).
+1. https://docs.docker.com/engine/install/fedora/
+2. https://docs.docker.com/compose/install/
+
+### Option 2, using `podman`
+
+It is probably pre-installed (if not: `sudo dnf podman`).
 
 If you want to use the `docker` command you can add the following line to your `.bashrc` file (or equivalent):
 
@@ -57,9 +62,7 @@ alias docker=podman
 
 **NOTE:** I did not manage to make `docker-compose` work with `podman`.
 
-### Option 2
-
-Use `moby-engine`.
+### Option 3, using `moby-engine`
 
 Install it:
 ```bash
@@ -92,3 +95,5 @@ Restart your computer:
 ```bash
 sudo systemctl reboot
 ```
+
+I had some issues with this method and `docker-compose` (`rsession` not starting).
